@@ -1,10 +1,12 @@
 import './App.css';
-import { MUITypography } from './components/MUI_Typography';
+import { MuiButton } from './components/MuiButton';
+//!import { MUITypography } from './components/MUI_Typography';
 
 function App() {
   return (
-    <div className="App">
-    <MUITypography/>
+    <div className="App" style={{height:'100rem'}}>
+    {/* <MUITypography/> */}
+    <MuiButton/>
     </div>
   );
 }
